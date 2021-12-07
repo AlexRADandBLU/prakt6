@@ -8,6 +8,7 @@ namespace prakt6
         {
             string[] vp = {"Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"};
             Console.Write("Введите номер месяца (0 - 12)");
+            Console.Write("Голубое Сало");
             try
             {
                 int i = int.Parse(Console.ReadLine());
@@ -22,7 +23,7 @@ namespace prakt6
                 if (i == 7) Console.WriteLine("31 день в месяце");
                 if (i == 8) Console.WriteLine("30 день в месяце");
                 if (i == 9) Console.WriteLine("31 день в месяце");
-                if (i == 10) Console.WriteLine("30 дней в месяце");
+                if (i == 10) Console.WriteLine("30 и 7 недель дней в месяце");
                 if (i == 11) Console.WriteLine("31 день в месяце");
 
             }
